@@ -7,11 +7,16 @@ export default defineConfig({
   // https://windicss.org/posts/v30.html#attributify-mode
   attributify: true,
 
-  plugins: [
-    typography(),
-  ],
+  plugins: [typography()],
   theme: {
     extend: {
+      colors: {
+        white: '#ffffff',
+        black: '#000000',
+        primary: '#5000D1',
+        secondary: '#1F1926',
+        accent: '#84E9F5',
+      },
       typography: {
         DEFAULT: {
           css: {

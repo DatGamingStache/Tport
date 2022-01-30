@@ -14,8 +14,10 @@
   "dependencies": {
     "@vueuse/core": "^7.5.4",
     "@vueuse/head": "^0.7.5",
+    "lodash": "^4.17.21",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.9",
+    "primevue": "^3.11.0",
     "prism-theme-vars": "^0.2.2",
     "vue": "^3.2.29",
     "vue-demi": "^0.12.1",
