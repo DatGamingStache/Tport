@@ -4,7 +4,7 @@ import TechStack from '../components/TechStack.vue'
 const projects = [
   {
     name: 'Pdanalytics',
-    coverImg: 'pdanalytics',
+    coverImg: 'pda3',
     sections: [
       { name: 'About Project', description: 'PD Analytics LLC is an education research company that specializes in helping K-12 schools to maximize their professional development spending.', components: [] },
       { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'pdanalytics' }] }] },
@@ -15,22 +15,22 @@ const projects = [
   },
   {
     name: 'Adstakr',
-    coverImg: '',
+    coverImg: 'adstakr2',
     sections: [
       { name: 'About Project', description: 'Adstakr is a company that sells billboard AD space by time', components: [] },
       { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'adstakr' }] }] }],
     link: '',
   },
-  { name: 'Big3D', coverImg: '', sections: [{ name: 'About Project', description: 'Big3D aims to give people the ability to purchase prints on demand by submitting an stl file of aynthing that you would like printed. ', components: [] }, { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'big3d' }] }] }], link: '' },
-  { name: 'BoostEhr', coverImg: '', sections: [{ name: 'About Project', description: 'BoostEhr is a in house medical application for managing many processes such as Lab results, Breath Tests, Viewing Patient Survey Results, and Secure Encrypted messaging', components: [] }, { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'boostehr' }] }] }], link: '' },
+  { name: 'Big3D', coverImg: 'big3d2', sections: [{ name: 'About Project', description: 'Big3D aims to give people the ability to purchase prints on demand by submitting an stl file of aynthing that you would like printed. ', components: [] }, { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'big3d' }] }] }], link: '' },
+  { name: 'BoostEhr', coverImg: 'boost', sections: [{ name: 'About Project', description: 'BoostEhr is a in house medical application for managing many processes such as Lab results, Breath Tests, Viewing Patient Survey Results, and Secure Encrypted messaging', components: [] }, { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'boostehr' }] }] }], link: '' },
   {
     name: 'Binding of Isaac: Achievements',
-    coverImg: '',
+    coverImg: 'achievehunter',
     sections: [{ name: 'About Project', description: 'The binding of isaac achievements app was built as a twitch extension for www.twitch.tv. The goal of the app was to provide viewers and streamers a visually pleasing way to keep up with the achievements that they have earned in the game The Binding of Isaac. This project was made specifically for one game but has the ability to show achievements for any game on the steam platform', components: [] }, { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'tboi' }] }] }],
     link: '',
   },
-  { name: 'Kick the Keeper', coverImg: '', sections: [{ name: 'About Project', description: 'Kick the Keeper is an idle/clicker game designed with the binding of isaac theme in mind', components: [] }, { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'kickthekeeper' }] }] }], link: '' },
-  { name: 'Crisis Cleanup', coverImg: 'ccLogin', sections: [{ name: 'About Project', description: 'Crisis Cleanup is a collaborative disaster work order management platform that improves coordination, reduces duplication of efforts, improves efficiency, and improves volunteers\' experience.', components: [] }, { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'crisiscleanup' }] }] }], link: '' },
+  { name: 'Kick the Keeper', coverImg: 'ktk2', sections: [{ name: 'About Project', description: 'Kick the Keeper is an idle/clicker game designed with the binding of isaac theme in mind', components: [] }, { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'kickthekeeper' }] }] }], link: '' },
+  { name: 'Crisis Cleanup', coverImg: 'cc2', sections: [{ name: 'About Project', description: 'Crisis Cleanup is a collaborative disaster work order management platform that improves coordination, reduces duplication of efforts, improves efficiency, and improves volunteers\' experience.', components: [] }, { name: 'Tech Stack', description: '', components: [{ name: TechStack, props: [{ name: 'crisiscleanup' }] }] }], link: '' },
 ]
 const tools = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
 const display = ref(false)

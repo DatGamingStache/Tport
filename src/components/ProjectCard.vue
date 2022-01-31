@@ -12,11 +12,11 @@ const props = defineProps({
   },
 })
 </script>
-9
+
 <template>
   <div>
     <div class="bg-black h-40">
-      <Icon :name="'projects/' + img" class="h-full w-full object-cover" />
+      <Icon :name="'projects/' + img" class="object-cover h-full w-full" />
     </div>
     <div class="bg-primary row-span-1 text-white">
       {{ title }}
