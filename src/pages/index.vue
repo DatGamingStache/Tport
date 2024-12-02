@@ -143,8 +143,8 @@ const selectedItem = ref({})
               'vuejs',
               'ahk',
             ]"
-            :key="idx"
-            class="h-20 w-20 bg-white rounded-lg p-2"
+            :key="idx"p
+            class="h-20 w-20 bg-white rounded-lg -2"
             :name="'Languages/' + item"
           />
         </div>
